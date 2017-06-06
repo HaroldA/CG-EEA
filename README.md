@@ -28,7 +28,7 @@ Linux Users:
 
 -Install Opengl Libraries.
 
--cc -o main main.cpp -lGL -lGLU -glut -lm
+-cc -o main main.cpp -lGL -lGLU -lglut -lm
 
 ./main
 
