@@ -650,7 +650,7 @@ void scene3_displaycallfunc(){
 
 
     if(stickPosX<-30){
-        nanosleep(500);
+        sleep(500);
         stickPosX=0;
         }
     glPushMatrix();
