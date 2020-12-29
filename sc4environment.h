@@ -2,6 +2,7 @@
 #define SC4ENVIRONMENT_H_INCLUDED
 #include "dino.h"
 #include <time.h>
+#include <unistd.h>
 
 void delay(float secs)
 {

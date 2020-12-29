@@ -1,5 +1,6 @@
 #ifndef SC3ENVIRONMENT_H_INCLUDED
 #define SC3ENVIRONMENT_H_INCLUDED
+#include <unistd.h>
 
 GLfloat a=0,b=0,c,d,e,f,angle_human_leg3=20,angle_human_leg4=-20,angle_human_hand3=20,angle_human_hand4=-20,man3PosX=0,stickPosX=0;
 

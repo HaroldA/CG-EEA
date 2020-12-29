@@ -2,6 +2,7 @@
 #define SC2ENVIRONMENT_H_INCLUDED
 #include <GL/glut.h>
 #include "dino.h"
+#include <unistd.h>
 
 void drawCloudS2()
 {
@@ -58,7 +59,7 @@ void drawSnow(){
         glBegin(GL_POINTS);
         glVertex2f(xPos[snowcntr],yPos[snowcntr]);
         glEnd();
-        Sleep(8);
+        sleep(8);
     }
    }
 }

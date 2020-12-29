@@ -1,6 +1,7 @@
 #ifndef SC1ENVIRONMENT_H_INCLUDED
 #define SC1ENVIRONMENT_H_INCLUDED
 #include <GL/glut.h>
+#include <unistd.h>
 
 GLfloat cloud1Pos=-180,cloud2Pos=75;
 
