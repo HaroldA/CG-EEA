@@ -59,7 +59,7 @@ void drawSnow(){
         glBegin(GL_POINTS);
         glVertex2f(xPos[snowcntr],yPos[snowcntr]);
         glEnd();
-        Sleep(8);
+        sleep(8);
     }
    }
 }
