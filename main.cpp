@@ -8,6 +8,7 @@
 #include "sc4environment.h"
 #include <math.h>
 #include <unistd.h>
+#include <cstring>
 
 int flag =0,cntr=0;
 bool isLeftKeyPressed=false,isRightKeyPressed=false;
