@@ -21,12 +21,6 @@ The project also includes a brief description of each age before showing the sce
 
 Instructions:
 -------------
-Linux Users:
------------
-
--Replace Windows Sleep Function in the code with usleep or nanosleep (Since Sleep is a Windows Only Function).
-
--Install Opengl Libraries.
 
 -cc -o main main.cpp -lGL -lGLU -lglut -lm
 
