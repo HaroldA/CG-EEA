@@ -497,7 +497,7 @@ void scene12_displaycallfunc(){
         printstroketext("recurring glacial expansion capable of lasting hundreds of",240,260,1,1,1,1.3,0.09);
         printstroketext("millions of years. Wooly Mammoth is the major land",240,240,1,1,1,1.3,0.09);
         printstroketext("animal found during this period. There have been at least",240,220,1,1,1,1.3,0.09);
-        printstroketext("five significant ice ages in Earth’s history.Outside these ages,",240,200,1,1,1,1.3,0.09);
+        printstroketext("five significant ice ages in Earthï¿½s history.Outside these ages,",240,200,1,1,1,1.3,0.09);
         printstroketext("the Earth seems to have been ice-free even in high",240,180,1,1,1,1.3,0.09);
         printstroketext("latitudes. Humans developed significantly during the most",240,160,1,1,1,1.3,0.09);
         printstroketext("recent glaciation period, emerging as the dominant land",240,140,1,1,1,1.3,0.09);
@@ -588,7 +588,7 @@ void scene13_displaycallfunc(){
          printstroketext("lasted until about 2000 BC.",240,340,1,1,1,1.3,0.09);
          printstroketext("Archaeologists divide the Stone Age into three periods:",240,300,1,1,1,1.3,0.09);
          printstroketext("Paleolithic, Mesolithic and then Neolithic. About 99 percent",240,280,1,1,1,1.3,0.09);
-         printstroketext("of humans’ time on earth took place during the Paleolithic",240,260,1,1,1,1.3,0.09);
+         printstroketext("of humansï¿½ time on earth took place during the Paleolithic",240,260,1,1,1,1.3,0.09);
          printstroketext("period.The Paleolithic age saw humans use stones to bash,",240,240,1,1,1,1.3,0.09);
          printstroketext("hit and scrape. By the end of the Paleolithic era, humans",240,220,1,1,1,1.3,0.09);
          printstroketext("had learned to make sharp tools, and lived together in",240,200,1,1,1,1.3,0.09);
@@ -650,7 +650,7 @@ void scene3_displaycallfunc(){
 
 
     if(stickPosX<-30){
-        Sleep(500);
+        usleep(500);
         stickPosX=0;
         }
     glPushMatrix();
