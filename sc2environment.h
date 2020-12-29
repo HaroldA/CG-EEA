@@ -2,6 +2,7 @@
 #define SC2ENVIRONMENT_H_INCLUDED
 #include <GL/glut.h>
 #include "dino.h"
+#include <unistd.h>
 
 void drawCloudS2()
 {
